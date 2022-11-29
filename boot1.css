@@ -1,0 +1,37 @@
+.backround{
+    background-image: url(bg.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.backround ::before{
+    content: "";
+    background-color: blue;
+    width: 100%;
+    position: absolute;
+    
+}
+
+.input{
+    outline: 0ch;
+    border: 0;
+}
+.iphone{
+    background-image: url(./iphone.png);
+    background-size: cover;
+    height: 30rem;
+
+}
+.code{
+    background-image: url(./code.png);
+    background-size: cover;
+    height: 30rem;
+
+}
+.komp{
+    background-image: url(./komp.png);
+    background-size: cover;
+    height: 30rem;
+
+}
